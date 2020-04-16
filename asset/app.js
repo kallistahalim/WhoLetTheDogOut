@@ -8,10 +8,10 @@ var hooman = ["Kallista", "Nenad"];
     //Math.floor(Math.random) * number of indexes in variable above
         //if that person is picked, the other person has to do dishes and clean the kitchen
 
-document.onkeypress = function() {
+document.onclick = function() {
     var computerDecision = hooman[Math.floor(Math.random()* hooman.length)];
     console.log(computerDecision);
-    document.querySelector("#button").innerHTML = computerDecision;
+    document.querySelector("#name").innerHTML = computerDecision;
 }
 
 //show it on the browser

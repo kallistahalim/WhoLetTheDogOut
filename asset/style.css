@@ -1,8 +1,11 @@
 h1 {
     text-align: center;
-    font-family: Arial;
+    font-family: 'Baloo Bhaina 2', cursive;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 75px;
+    color: #f5c1f3;
+    border: grey;
+
 }
 
 #button {
@@ -11,3 +14,38 @@ h1 {
     margin-top: 200px;
     font-size: 50px;  
 }
+
+button {
+    margin-top: -100px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:#f5c1f3;
+    opacity: 80%;
+    font-family: monospace;
+}
+
+#name {
+    text-align: center;
+    font-family: Arial;
+    font-size: 50px;  
+}
+
+html {
+    background-image: url("./img/background.jpg") !important;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 25px;
+  }
