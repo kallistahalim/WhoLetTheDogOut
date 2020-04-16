@@ -1,0 +1,1 @@
+Since we have trouble deciding who is going to walk the dog before bed, I created this simple app to determine.
